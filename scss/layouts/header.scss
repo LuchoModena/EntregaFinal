@@ -10,7 +10,15 @@
 @media only screen and (min-width: 700px){
 .headerIndex {
     background-image: url(../../img/biblioteca2.jpg);
-} }
+} 
+.libro {
+    max-width: 40%;
+}
+.contenedorInferior {
+    display: flex;
+    flex-wrap: wrap;
+}
+}
     
 .contenedorSuperior {
     @extend %flexBasico
@@ -19,8 +27,6 @@
     width: 8rem;
     padding: .5rem 1rem;
     margin: .5rem 0;
-}
-.botonHeader{
     transition: 0.5s;
     &:hover {
         transform: scale(1.2);
@@ -28,4 +34,5 @@
 }
 li {
     display: flex;
-justify-content: center;}
+    justify-content: center;
+}

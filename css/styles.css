@@ -1,3 +1,9 @@
+.libro {
+  width: 70%;
+  margin: 1rem auto;
+  border: groove 2px black;
+}
+
 .contenedorSuperior {
   display: flex;
   align-items: center;
@@ -18,14 +24,18 @@
   .headerIndex {
     background-image: url(../../img/biblioteca2.jpg);
   }
+  .libro {
+    max-width: 40%;
+  }
+  .contenedorInferior {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .botonHeader {
   width: 8rem;
   padding: 0.5rem 1rem;
   margin: 0.5rem 0;
-}
-
-.botonHeader {
   transition: 0.5s;
 }
 .botonHeader:hover {
