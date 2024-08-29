@@ -12,7 +12,7 @@
 }
 
 .headerIndex {
-  background-image: url(../../img/biblio.jpeg);
+  background-image: url(../img/biblio.jpeg);
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -22,7 +22,7 @@
 
 @media only screen and (min-width: 700px) {
   .headerIndex {
-    background-image: url(../../img/biblio2.jpg);
+    background-image: url(../img/biblio2.jpg);
   }
   .libro {
     max-width: 40%;
