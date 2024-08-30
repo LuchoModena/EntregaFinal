@@ -2,6 +2,9 @@
     .headerIndex {
         background-image: url(../../img/biblio2.jpg);
     } 
+    .headerOtro {
+        background-image: url(../../img/biblio2.jpg);
+    } 
     .libro {
         max-width: 40%;
     }
@@ -12,4 +15,18 @@
     .footerIndex {
         height: 117vh;
     }
+
     }
+
+@media only screen and (max-width: 700px){
+
+    .catalogo{
+        width: 30%; }
+
+    .contenedorFlex {
+        gap: .5rem;
+     }
+     .subtitulo {
+        font-size: 4rem;
+    }
+         }

@@ -1,0 +1,22 @@
+.catalogo{
+    width: 20%;
+    margin: 1rem auto;
+    border: groove 2px black;
+}
+
+.headerOtro {
+    background-image: url(../../img/biblio.jpeg);
+    height: 70vh;
+    @extend %Fondo
+}
+
+.subtitulo {
+    font-size: 6rem;
+}
+.contenedorFlex {
+    display: flex;
+    flex-direction: row;
+    max-width: 100rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
