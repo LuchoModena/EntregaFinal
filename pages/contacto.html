@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="headerOtro">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Librería Genova</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                     <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/nosotros.html">Autores</a>
+                    <a class="nav-link" href="../pages/autores.html">Autores</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="../pages/consultas.html">Consultas</a>
@@ -41,9 +41,32 @@
               </div>
             </div>
           </nav>
+          <section class="contenedorSuperior h-100">
+            <h1 class="text-white fw-bold text center subtitulo">CONTACTO</h1>
+            </section>
     </header>
     <main>
-
+      <div class="contenedorForm">
+        <label for="customRange1" class="form-label ">¿Qué tanto te gusta leer?</label>
+        <input type="range" class="form-range" id="customRange1">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <select class="form-select form-select-sm" aria-label="Small select example">
+      <option selected>Motivo</option>
+      <option value="1">Compra</option>
+      <option value="2">Envío</option>
+      <option value="3">Otras Consultas</option>
+    </select>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </div>
     </main>
     <footer class="footerIndex">
       <div class="listado">
@@ -77,7 +100,7 @@
             <section class="cierre">
               <h4 class="text-white fw-bold fs-1 text-center">En un solo lugar</h4>
               <h4 class="text-white fw-bold fs-1 text-center">LIBRERÍA GENOVA</h4>
-              <a href="./pages/catalogo.html">
+              <a href="../pages/catalogo.html">
               <button class="botonFooter">Hacé tu pedido</button>
             </a>
             </section>
