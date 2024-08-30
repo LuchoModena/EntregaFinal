@@ -19,7 +19,7 @@
 }
 
 .footerIndex {
-  background-image: url(../../img/biblio3.png);
+  background-image: url(../img/biblio3.png);
   height: 110vh;
 }
 
@@ -63,13 +63,13 @@ footer li {
 }
 
 .headerIndex {
-  background-image: url(../../img/biblio.jpeg);
+  background-image: url(../img/biblio.jpeg);
   height: 110vh;
 }
 
 @media only screen and (min-width: 700px) {
   .headerIndex {
-    background-image: url(../../img/biblio2.jpg);
+    background-image: url(../img/biblio2.jpg);
   }
   .libro {
     max-width: 40%;
