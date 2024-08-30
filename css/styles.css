@@ -245,6 +245,9 @@ li {
   .item4, .item5, .item6 {
     padding: 0;
   }
+  .item1 img, .item2 img, .item3 img {
+    width: 80px;
+  }
 }
 * {
   font-family: "Fira Sans", sans-serif;
