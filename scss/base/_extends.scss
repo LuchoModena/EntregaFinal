@@ -4,3 +4,9 @@
     justify-content: center;
     flex-direction: column;
 }
+%Fondo {
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: relative;
+}
