@@ -20,7 +20,7 @@
 
 .footerIndex {
   background-image: url(../img/biblio3.png);
-  height: 110vh;
+  height: 112vh;
 }
 
 footer li {
@@ -38,28 +38,26 @@ footer li {
 
 .botonFooter {
   width: 12rem;
-  padding: 0.5rem 1rem;
+  height: 3rem;
   margin: 0.5rem 0;
   transition: 0.5s;
-  justify-content: center;
 }
 .botonFooter:hover {
   transform: scale(1.2);
 }
 
 .cierre {
-  padding: 1.7rem;
+  padding: 1rem;
   border: solid 2px white;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  gap: 1rem;
+  flex-direction: column;
 }
 
 .derechos {
   text-align: center;
   color: rgb(202, 177, 177);
+  margin-top: 0.1rem;
 }
 
 .headerIndex {
@@ -67,18 +65,6 @@ footer li {
   height: 110vh;
 }
 
-@media only screen and (min-width: 700px) {
-  .headerIndex {
-    background-image: url(../img/biblio2.jpg);
-  }
-  .libro {
-    max-width: 40%;
-  }
-  .contenedorInferior {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 .botonHeader {
   width: 8rem;
   padding: 0.5rem 1rem;
@@ -94,6 +80,21 @@ li {
   justify-content: center;
 }
 
+@media only screen and (min-width: 700px) {
+  .headerIndex {
+    background-image: url(../img/biblio2.jpg);
+  }
+  .libro {
+    max-width: 40%;
+  }
+  .contenedorInferior {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footerIndex {
+    height: 117vh;
+  }
+}
 * {
   font-family: "Fira Sans", sans-serif;
 }

@@ -4,19 +4,6 @@
     @extend %Fondo
 }
 
-@media only screen and (min-width: 700px){
-.headerIndex {
-    background-image: url(../../img/biblio2.jpg);
-} 
-.libro {
-    max-width: 40%;
-}
-.contenedorInferior {
-    display: flex;
-    flex-wrap: wrap;
-}
-}
-    
 .contenedorSuperior {
     @extend %flexBasico
 }
